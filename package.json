@@ -1,11 +1,17 @@
 {
 	"name": "paste-as-multiline-string",
-	"displayName": "paste-as-multiline-string",
+	"displayName": "Paste as multiline string",
 	"description": "Paste text as a multiline string",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GauthierEstJoly/paste-as-multiline-string.git"
+	},
+	"publisher": "Gauthier",
 	"categories": [
 		"Other"
 	],
