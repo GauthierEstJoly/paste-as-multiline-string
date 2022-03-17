@@ -2,7 +2,7 @@
 	"name": "paste-as-multiline-string",
 	"displayName": "Paste as multiline string",
 	"description": "Paste text as a multiline string",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
@@ -25,7 +25,17 @@
 				"command": "paste-as-multiline-string.pasteAsMultilineString",
 				"title": "Paste as multiline string"
 			}
-		]
+		],
+		"configuration": {
+			"title": "Paste as multiline-string",
+			"properties": {
+			  "paste-as-multiline-string.deleteCarriageReturn": {
+				"type": "boolean",
+				"default": true,
+				"description": "Remove \\r(carriage return) automatically"
+			  }
+			}
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
